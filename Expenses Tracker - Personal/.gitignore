@@ -1,0 +1,7 @@
+# Ignore database file
+expenses.db
+
+# Ignore Python virtual environment
+.venv/
+__pycache__/
+*.pyc
