@@ -159,10 +159,11 @@ root.title("Handy Wallet")
 root.geometry("1150x700")
 root.configure(bg="white")
 
+#There are two ways to get icon below show that
 # Change window icon (replace wallet_icon.ico with your icon)
 #root.iconbitmap("wallet_icon.ico")
 
-icon = tk.PhotoImage(file="C:\Projects - Personal\Expenses Tracker - Personal\wallet_icon.png")  # Use your PNG file
+icon = tk.PhotoImage(file="Expenses Tracker - Personal\wallet_icon.png")  # Use your PNG file
 root.iconphoto(False, icon)
 
 
